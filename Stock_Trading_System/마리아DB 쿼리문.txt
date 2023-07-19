@@ -1,0 +1,69 @@
+[마리아 DB 명령어]
+
+
+id = 카운트, code = 종목코드, name = 종목명, date = 날짜, time = 시간,
+startprice = 시가, highprice = 고가, lowprice = 저가, endprice = 종가,
+tradecount = 거래량, sma5 = 5일간 이동평균, sma20 = 20일간 이동평균,
+rsi = 상대강도지수, macd = 이동 평균 수렴 발산,
+aroonup = 기간의 최고점 추세 추종 지표, aroondn = 기간의 최저점 추세 추종 지표
+
+
+GST = 083450, 고영 = 098460, 싸이맥스 = 160980, 네패스= 033640,
+데이타솔루션 = 263800
+
+# 주식 데이터(분 단위) 테이블
+create table minstockdata(
+id int unsigned not null auto_increment,
+code varchar(10) not null,
+name varchar(100) not null,
+date int not null,
+time int not null,
+startprice int not null,
+highprice int not null,
+lowprice int not null,
+endprice int not null,
+tradecount int not null,
+primary key (id)
+)default charset=utf8;
+
+# 주식 데이터(일 단위) 테이블
+create table daystockdata(
+id int unsigned not null auto_increment,
+code varchar(10) not null,
+name varchar(100) not null,
+date int not null,
+startprice int not null,
+highprice int not null,
+lowprice int not null,
+endprice int not null,
+tradecount int not null,
+primary key (id)
+)default charset=utf8;
+
+# 지표 데이터 테이블
+create table stockjipyo(
+id int unsigned not null auto_increment,
+code varchar(10) not null,
+name varchar(100) not null,
+date int not null,
+sma5 decimal(20, 15) not null,
+sma20 decimal(20, 15) not null,
+upper decimal(20, 15) not null,
+mavg decimal(20, 15) not null,
+lower decimal(20, 15) not null,
+rsi decimal(20, 15) not null,
+macd decimal(20, 15) not null,
+aroonup decimal(20, 15) not null,
+aroondn decimal(20, 15) not null,
+primary key (id)
+)default charset=utf8;
+
+# 뉴스 데이터 테이블
+create table newsdata(
+id int unsigned not null auto_increment,
+date varchar(26) not null,
+title varchar(300) not null,
+text varchar(21000) not null,
+primary key (id)
+)default charset=utf8;
+

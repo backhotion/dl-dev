@@ -1,0 +1,70 @@
+{
+	"folders": [
+		{
+			"path": "../.."
+		},
+		{
+			"name": "Auto-GPT",
+			"path": "G:/Auto-GPT"
+		},
+		{
+			"name": "vcpkg",
+			"path": "G:/vcpkg"
+		},
+		{
+			"name": "gwajae5-1",
+			"path": "../../gwajae5-1"
+		},
+		{
+			"name": "huggingface-vscode",
+			"path": "G:/huggingface-vscode"
+		},
+		{
+			"name": "rltrader",
+			"path": "G:/rltrader"
+		},
+		{
+			"name": "gym-mtsim",
+			"path": "G:/gym-mtsim"
+		},
+		{
+			"name": "FinRL",
+			"path": "G:/FinRL"
+		},
+		{
+			"name": "FinGPT",
+			"path": "G:/FinGPT"
+		},
+		{
+			"name": "ElegantRL",
+			"path": "G:/ElegantRL"
+		},
+		{
+			"name": "FinNLP",
+			"path": "G:/FinNLP"
+		},
+		{
+			"name": "FinRL-Meta",
+			"path": "G:/FinRL-Meta"
+		},
+		{
+			"name": "FinRL-Trading",
+			"path": "G:/FinRL-Trading"
+		},
+		{
+			"name": "ChatLaw",
+			"path": "G:/ChatLaw"
+		},
+		{
+			"name": "pandas-ai",
+			"path": "G:/pandas-ai"
+		},
+		{
+			"name": "DI-engine",
+			"path": "G:/DI-engine"
+		}
+	],
+	"settings": {
+		"codeium.enableSearch": true
+	}
+}
