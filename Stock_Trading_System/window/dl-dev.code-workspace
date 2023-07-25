@@ -62,6 +62,13 @@
 		{
 			"name": "DI-engine",
 			"path": "G:/DI-engine"
+		},
+		{
+			"name": "netron",
+			"path": "G:/netron"
+		},
+		{
+			"path": "../../../python_dev"
 		}
 	],
 	"settings": {
