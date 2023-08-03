@@ -69,6 +69,33 @@
 		},
 		{
 			"path": "../../../python_dev"
+		},
+		{
+			"name": "mojo",
+			"path": "G:/mojo"
+		},
+		{
+			"name": "awesome-mojo",
+			"path": "G:/awesome-mojo"
+		},
+		{
+			"name": "awesome-compose",
+			"path": "G:/awesome-compose"
+		},
+		{
+			"name": "docker",
+			"path": "G:/docker"
+		},
+		{
+			"name": "PIXIU",
+			"path": "G:/PIXIU"
+		},
+		{
+			"path": "G:/Astock"
+		},
+		{
+			"name": "tensortrade",
+			"path": "G:/tensortrade"
 		}
 	],
 	"settings": {
